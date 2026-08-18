@@ -37,6 +37,9 @@ A multi-tenant, Shopify-style e-commerce SaaS platform for the Egyptian/MENA mar
 5. Integration with Meta for handling all PMs in one place (WhatsApp / Instagram / etc.)
 6. Trust score for all buyers across all stores — to know if a customer doesn't take his shipment a lot, so store owners can decide to cancel his order
    - Not all data visible to each store owner — only the "taking percent" is visible, and only flagged if it's below 50%; the store owner then decides
+	-Low-risk buyer (high history of accepting COD shipments) → checkout stays fully Cash-on-Delivery, no friction.
+	-Medium-risk buyer (some rejected shipments) → system automatically requires a partial prepayment before the order ships — e.g. "pay 20% now via card/wallet, pay the rest on delivery." This isn't a full block, just enough of a commitment to filter out casual/careless orders.
+	-High-risk buyer (frequently rejects shipments) → system could require full prepayment or suggest the merchant reject/manually review the order.
 7. Lots of dashboards for everything for the merchants, integrated with ads data and everything
 8. Auto order confirmation through WhatsApp, or phone calls through AI, or any system like "press 1 to confirm"
 9. Multi-role for store owners and their employees, so the owner can limit the integrations his employees can access
@@ -49,7 +52,17 @@ A multi-tenant, Shopify-style e-commerce SaaS platform for the Egyptian/MENA mar
 16. AI for media buying
 17. **Far future:** video streaming, so people selling online courses can sell them on the platform
 18. **Far future:** a supplier/factory area — factories showcase products, store owners browse and contact factories to place large wholesale orders
-
+19. Search for products by uploading their images.
+20. Return and exchange authorization
+21. Platform control center: dashboard to manage brands,..etc
+22. Instapay confirmation
+23. Bulk product upload: take an excel sheet with all products’ info at once instead of providing one at a time 
+24. Alert when low on stock
+25. Brand owner can set a timer so when time is up an action happens(for instance: a new drop is released) 
+26. Mobile application
+27. Guide brands through the needed legal documents and process
+28. Calculate for brand owners [cost-sales-profit..etc]
+29 **Far future**:have all brands gathered and displayed (zay talabat) 
 ---
 
 ## 4. Functional Requirements by Module
