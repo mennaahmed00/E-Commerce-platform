@@ -1,0 +1,400 @@
+<mxfile host="app.diagrams.net" agent="python-generator">
+  <diagram name="Use Case Diagram" id="diagram1">
+    <mxGraphModel dx="1117" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="2600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="outerbound" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=15;align=center;" value="" vertex="1">
+          <mxGeometry height="2500" width="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="paactor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;" value="Platform admin" vertex="1">
+          <mxGeometry height="60" width="40" x="60" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="pau0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage tenants" vertex="1">
+          <mxGeometry height="50" width="260" x="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pae0" edge="1" parent="1" source="paactor" style="endArrow=none;html=1;" target="pau0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pau1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage integrations marketplace" vertex="1">
+          <mxGeometry height="50" width="260" x="160" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="pae1" edge="1" parent="1" source="paactor" style="endArrow=none;html=1;" target="pau1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pau2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="View admin dashboard" vertex="1">
+          <mxGeometry height="50" width="260" x="160" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="pae2" edge="1" parent="1" source="paactor" style="endArrow=none;html=1;" target="pau2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pau3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Monitor system status and performance" vertex="1">
+          <mxGeometry height="50" width="260" x="160" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="pae3" edge="1" parent="1" source="paactor" style="endArrow=none;html=1;" target="pau3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pau4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage brands" vertex="1">
+          <mxGeometry height="50" width="260" x="160" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="pae4" edge="1" parent="1" source="paactor" style="endArrow=none;html=1;" target="pau4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pau5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Oversee billing tiers" vertex="1">
+          <mxGeometry height="50" width="260" x="160" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="pae5" edge="1" parent="1" source="paactor" style="endArrow=none;html=1;" target="pau5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emactor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;" value="Merchant staff" vertex="1">
+          <mxGeometry height="60" width="40" x="590" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="emu0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Log in" vertex="1">
+          <mxGeometry height="50" width="260" x="690" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eme0" edge="1" parent="1" source="emactor" style="endArrow=none;html=1;" target="emu0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emu1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage products" vertex="1">
+          <mxGeometry height="50" width="260" x="690" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="eme1" edge="1" parent="1" source="emactor" style="endArrow=none;html=1;" target="emu1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emu2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage orders" vertex="1">
+          <mxGeometry height="50" width="260" x="690" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="eme2" edge="1" parent="1" source="emactor" style="endArrow=none;html=1;" target="emu2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emu3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Access allowed integrations" vertex="1">
+          <mxGeometry height="50" width="260" x="690" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="eme3" edge="1" parent="1" source="emactor" style="endArrow=none;html=1;" target="emu3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emu4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="View staff dashboard" vertex="1">
+          <mxGeometry height="50" width="260" x="690" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="eme4" edge="1" parent="1" source="emactor" style="endArrow=none;html=1;" target="emu4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moactor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;" value="Merchant owner" vertex="1">
+          <mxGeometry height="60" width="40" x="1120" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="mou0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Sign up store" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="moe0" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Edit store theme" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="moe1" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Configure store settings" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="moe2" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtTmsRqa4NCaXMH5Q3YM-1" edge="1" parent="1" source="mou3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mou2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Set custom domain" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="moe3" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage products" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="moe4" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Bulk upload products" vertex="1">
+          <mxGeometry height="50" width="260" x="1221" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="moe5" edge="1" parent="1" source="mou5" style="endArrow=open;endSize=12;dashed=1;html=1;" target="mou4" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage categories" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="moe6" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Set low stock alerts" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="moe7" edge="1" parent="1" source="mou7" style="endArrow=open;endSize=12;dashed=1;html=1;" target="mou4" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Set drop countdown timer" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="moe8" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage orders" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="moe9" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Review buyer trust score" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="moe10" edge="1" parent="1" source="mou10" style="endArrow=open;endSize=12;dashed=1;html=1;" target="mou9" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Authorize return or exchange" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="912" as="geometry" />
+        </mxCell>
+        <mxCell id="moe11" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage integrations" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="984" as="geometry" />
+        </mxCell>
+        <mxCell id="moe12" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Configure payment gateways" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1056" as="geometry" />
+        </mxCell>
+        <mxCell id="moe13" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Configure shipping carriers" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="moe14" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Configure Meta ads" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="moe15" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Configure unified inbox" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1272" as="geometry" />
+        </mxCell>
+        <mxCell id="moe16" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Manage employee permissions" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1344" as="geometry" />
+        </mxCell>
+        <mxCell id="moe17" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Guide legal compliance" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1416" as="geometry" />
+        </mxCell>
+        <mxCell id="moe18" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="View merchant dashboard" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1488" as="geometry" />
+        </mxCell>
+        <mxCell id="moe19" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Calculate cost, sales and profit" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="moe21" edge="1" parent="1" source="mou21" style="endArrow=open;endSize=12;dashed=1;html=1;" target="mou19" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Interact with smart assistant" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1632" as="geometry" />
+        </mxCell>
+        <mxCell id="moe22" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Edit theme with AI" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1704" as="geometry" />
+        </mxCell>
+        <mxCell id="moe23" edge="1" parent="1" source="mou23" style="endArrow=open;endSize=12;dashed=1;html=1;" target="mou1" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Edit store data with AI" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1776" as="geometry" />
+        </mxCell>
+        <mxCell id="moe24" edge="1" parent="1" source="mou24" style="endArrow=open;endSize=12;dashed=1;html=1;" target="mou2" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Use speech to text" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1848" as="geometry" />
+        </mxCell>
+        <mxCell id="moe25" edge="1" parent="1" source="mou25" style="endArrow=open;endSize=12;dashed=1;html=1;" target="mou22" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FF66B3;fontColor=#ffffff;strokeColor=#B30059;" value="Host video streaming courses" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="moe26" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mou27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FF66B3;fontColor=#ffffff;strokeColor=#B30059;" value="Access supplier marketplace" vertex="1">
+          <mxGeometry height="50" width="260" x="1220" y="1992" as="geometry" />
+        </mxCell>
+        <mxCell id="moe27" edge="1" parent="1" source="moactor" style="endArrow=none;html=1;" target="mou27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuactor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;" value="Customer" vertex="1">
+          <mxGeometry height="60" width="40" x="1750" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Browse storefront" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cue0" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Search products" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="cue1" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Search products by image" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Checkout" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="cue3" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Select payment method" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="cue4" edge="1" parent="1" source="cuu3" style="endArrow=open;endSize=12;dashed=1;html=1;" target="cuu4" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Pay with Instapay" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cue5" edge="1" parent="1" source="cuu5" style="endArrow=open;endSize=12;dashed=1;html=1;" target="cuu4" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Confirm order" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="cue6" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Chat with support chatbot" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="cue7" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Request return or exchange" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="cue8" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FF66B3;fontColor=#ffffff;strokeColor=#B30059;" value="Browse central brand marketplace" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="cue9" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuu10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#FF66B3;fontColor=#ffffff;strokeColor=#B30059;" value="Use mobile application" vertex="1">
+          <mxGeometry height="50" width="260" x="1850" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="cue10" edge="1" parent="1" source="cuactor" style="endArrow=none;html=1;" target="cuu10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiactor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;fontStyle=1;" value="AI system" vertex="1">
+          <mxGeometry height="60" width="40" x="2350" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Run Arabic support RAG" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aie0" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Confirm order automatically" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aie1" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Calculate buyer trust score" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="aie3" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Run autonomous CRM" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aie7" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Segment customers" vertex="1">
+          <mxGeometry height="50" width="260" x="2800" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aie4" edge="1" parent="1" source="aiu7" style="endArrow=open;endSize=12;dashed=1;html=1;" target="aiu4" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Predict churn" vertex="1">
+          <mxGeometry height="50" width="260" x="2800" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="aie5" edge="1" parent="1" source="aiu7" style="endArrow=open;endSize=12;dashed=1;html=1;" target="aiu5" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Analyze review sentiment" vertex="1">
+          <mxGeometry height="50" width="260" x="2800" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="aie6" edge="1" parent="1" source="aiu7" style="endArrow=open;endSize=12;dashed=1;html=1;" target="aiu6" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Generate product descriptions" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="aie8" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Detect fake reviews" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="aie9" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Edit theme on owner behalf" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="aie10" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Edit store data on owner behalf" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="aie11" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Process speech to text" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="aie12" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiu13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Media buying" vertex="1">
+          <mxGeometry height="50" width="260" x="2450" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="aie13" edge="1" parent="1" source="aiactor" style="endArrow=none;html=1;" target="aiu13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
