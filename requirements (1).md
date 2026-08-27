@@ -62,7 +62,10 @@ A multi-tenant, Shopify-style e-commerce SaaS platform for the Egyptian/MENA mar
 26. Mobile application
 27. Guide brands through the needed legal documents and process
 28. Calculate for brand owners [cost-sales-profit..etc]
-29 **Far future**:have all brands gathered and displayed (zay talabat) 
+29. **Far future**:have all brands gathered and displayed (zay talabat)
+30. ai buy on buyer behalf and make orders
+31. ai recomendations from orders history 
+32. clothing preview 
 ---
 
 ## 4. Functional Requirements by Module
