@@ -36,8 +36,9 @@ Only these services are needed for the MVP. Each is an independent NestJS app (o
 | **Integrations Service** | Payment gateway adapter (1 for MVP), shipping provider adapter (1 for MVP) | Own schema — stores per-tenant integration config/credentials |
 | **Messaging Service** | Basic unified message box (receives/displays messages from one channel for MVP) | Own schema — stores inbound messages |
 | **Frontend** | Next.js app serving both the merchant dashboard and the public storefront | Calls the above services via REST |
+**The AI microservice** (FastAPI) should exist as a skeleton/stub service with health-check endpoint only — no AI logic yet.
 
-The AI microservice (FastAPI) should exist as a skeleton/stub service with health-check endpoint only — no AI logic yet.
+| **data analytics** |
 
 **Tenant isolation rule:** every query in the Core Commerce Service must be scoped to the current tenant's schema. Implement tenant resolution via request-scoped provider (NestJS DI), resolving tenant from subdomain or JWT claim — never trust a client-supplied tenant ID without validating it against the authenticated session.
 
