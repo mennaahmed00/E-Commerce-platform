@@ -1,6 +1,4 @@
 
-That is the above response generated
-
 How to run the file?
 1- git clone <REPOSITORY_LINK>
 2- cd AI_work
