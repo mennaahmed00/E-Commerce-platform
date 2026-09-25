@@ -50,9 +50,7 @@ python main.py
 
 ## Expected Output
 
-```
 
-```
 <img width="1007" height="458" alt="image" src="https://github.com/user-attachments/assets/46ba26b3-dc60-41d2-8e09-90f8f57d3486" />
 
 
